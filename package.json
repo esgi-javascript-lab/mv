@@ -1,4 +1,14 @@
 {
     "name": "@esgi-javascript-lab/mv",
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {
+        "mv": "./dist/mv.js"
+    },
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "devDependencies": {
+        "rollup": "^1.26.3",
+        "rollup-plugin-terser": "^5.1.2"
+    }
 }

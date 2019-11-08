@@ -47,6 +47,12 @@ $ git checkout branch-name
 
 Replace `branch-name` with the name of the branch that has been created.
 
+## Build the containers
+
+```console
+$ make docker
+```
+
 ## Install the development dependencies
 
 ```console
